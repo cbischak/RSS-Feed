@@ -6,7 +6,6 @@ d = feedparser.parse('http://www.reddit.com/r/news/.rss')
 @app.route('/')
 @app.route('/index')
 def index():
-    d = feedparser.parse('http://www.reddit.com/r/news/.rss')
     rss=[]
     for post in d.entries:
         rss.append(post.title+":"+post.link+"/n")

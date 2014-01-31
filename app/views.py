@@ -1,6 +1,8 @@
 from flask import render_template
 from app import app
 import feedparser
+import datetime
+import PyRSS2Gen
 d = feedparser.parse('http://www.reddit.com/r/technology/.rss')
 e = feedparser.parse('http://blogs.oracle.com/main/feed/entries/atom')
 @app.route('/')
@@ -17,5 +19,7 @@ def index():
     
     return render_template("index.html", title="Home", rss=rss, atom=atom)
 @app.route('/feeder')
-def feed():
+def feed(): 
     return render_template("feeder.html", title="feeder")
+    
+

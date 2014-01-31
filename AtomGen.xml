@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Center for Open Science</title>
+  <id>http://centerforopenscience.org/press/</id>
+  <updated>2014-01-31T17:27:38Z</updated>
+  <link href="http://centerforopenscience.org/" />
+  <link href="http://centerforopenscience.org/press/" rel="self" />
+  <author>
+    <name>George Washington</name>
+  </author>
+  <subtitle type="text">Example for a feed test.</subtitle>
+  <generator>PyAtom</generator>
+  <entry xml:base="http://centerforopenscience.org/press/">
+    <title type="text">The Changing Face of Psychology</title>
+    <id>http://www.theguardian.com/science/head-quarters/2014/jan/24/the-changing-face-of-psychology</id>
+    <updated>2014-01-31T17:27:38Z</updated>
+    <link href="http://www.theguardian.com/science/head-quarters/2014/jan/24/the-changing-face-of-psychology" />
+    <author>
+      <name>George Washington</name>
+    </author>
+    <content type="html">After 50 years of stagnation in research practicespsychology is leading reforms that will benefit all life sciences</content>
+  </entry>
+</feed>
